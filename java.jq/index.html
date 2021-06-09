@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>components</title>
+  </head>
+  <body>
+    <div class="container">
+      <button type="button" class="btn btn-danger  button">click me</button>
+      
+    </div><br><br>
+
+      <div class="container">
+      <button type="button" class="btn btn-success m-2" id="hide">hide</button>
+      <button type="button" class="btn btn-success" id="show">show</button>
+      <p class="message text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quisquam dolores ipsum, eaque fugiat exercitationem.</p>
+      
+    </div><br>
+     <div class="container">
+      <button type="button" class="btn btn-success m-2" id="fadei">fadein</button>
+      <button type="button" class="btn btn-danger m-2" id="fadeo">fadeout</button>
+      <button type="button" class="btn btn-success m-2" id="fadet">fadetoggle</button>
+      <button type="button" class="btn btn-danger m-2" id="fadetto">fadeto</button>
+
+      <p class="message text-danger mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quisquam dolores ipsum, eaque fugiat exercitationem.</p>
+      
+    </div><br>
+    <div class="container">
+      <div class="header">header</div>
+      <div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga laborum porro veritatis recusandae odio exercitationem, iusto dolore, culpa velit sapiente, nulla quasi minima quaerat tempore dolores, repellat error. Tempora, veritatis.</div>
+    </div>
+
+
+
+
+
+    
+
+
+  
+
+ 
+
+
+
+
+ 
+    <!-- js links-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--fontawesomelinks--> 
+    <script>
+     // Example starter JavaScript for disabling form submissions if there are invalid fields
+     (function () {
+    'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+  
+</script>
+<!--fontawesomelinks-->
+</body>
+</html>

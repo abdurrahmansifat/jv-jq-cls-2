@@ -1,0 +1,35 @@
+$(document).ready(function(){
+ //meaasage
+ $('.button').click(function(){
+   alert("Hello SSB ! Welcome");
+ });
+ //hide
+ $('#hide').click(function(){
+   $('.message').hide();
+ });
+  //show
+ $('#show').click(function(){
+   $('.message').show();
+ });
+ //fadein
+ $('#fadei').click(function(){
+   $('.message').fadeIn(1000);
+ });
+  //fadeout
+ $('#fadeo').click(function(){
+   $('.message').fadeOut(2000);
+ });
+  //fadein
+ $('#fadet').click(function(){
+   $('.message').fadeToggle();
+ });
+  //fadein
+ $('#fadetto').click(function(){
+   $('.message').fadeTo();
+ });
+ //hide/show
+ $('.header').click(function(){
+   $('.text').slideToggle(1000);
+ });
+
+});
